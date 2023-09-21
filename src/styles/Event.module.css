@@ -1,0 +1,88 @@
+.events {
+    padding-left: 75px;
+    padding-right: 75px
+}
+
+.eventsItem {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    padding: 25px;
+    background-color: #fff;
+    -webkit-box-shadow: 18px 24px 43px 0 rgba(0, 0, 0, .17);
+    box-shadow: 18px 24px 43px 0 rgba(0, 0, 0, .17)
+}
+
+.eventsItemImage {
+    width: 50%;
+    min-width: 50%;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.events .sectionHeader {
+    width: 50%;
+    padding: 60px 20px 60px 50px
+}
+
+.events .sectionLabel {
+    font-size: 29px;
+    margin-bottom: -5px;
+    letter-spacing: 2px
+}
+
+.events .sectionTitle {
+    font-size: 42px;
+    margin-bottom: 20px
+}
+
+.events .sectionSubtitle {
+    font-size: 21px;
+    line-height: 33px;
+    padding-left: 0;
+    color: #3d3d3d
+}
+
+.events .slick-list {
+    -webkit-box-shadow: 18px 24px 43px 0 rgba(0, 0, 0, .17);
+    box-shadow: 18px 24px 43px 0 rgb(0 0 0 / 17%)
+}
+
+.events .slick-dots {
+    bottom: 0;
+    text-align: left;
+    padding-left: 70px;
+    margin-bottom: 60px
+}
+
+.events .slick-dots li button {
+    width: 17px;
+    min-width: 17px;
+    height: 17px;
+    background-color: #dcdcdc;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.events .slick-dots li button::before {
+    content: none
+}
+
+@media only screen and (max-width: 888px) {
+    .eventsItem {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .events .sectionHeader {
+        width: 100%;
+    }
+
+    .eventsItemImage {
+        width: 100%;
+    }
+}

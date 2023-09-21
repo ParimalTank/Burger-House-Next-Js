@@ -1,0 +1,106 @@
+.navbarMain {
+    background-image: url("../../public/assets/img/bg.png");
+    padding: 33px 50px 0px 60px;
+}
+
+.navbarBrandMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brandname {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-left: 10px;
+    font-size: 36px;
+}
+
+.delivery {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+
+@-webkit-keyframes shake {
+    from {
+        -webkit-transform: translate3d(1px, 0, 0);
+        transform: translate3d(1px, 0, 0)
+    }
+
+    50% {
+        -webkit-transform: translate3d(-4px, 0, 0);
+        transform: translate3d(-4px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: translate3d(4px, 0, 0);
+        transform: translate3d(4px, 0, 0)
+    }
+}
+
+@keyframes shake {
+    from {
+        -webkit-transform: translate3d(1px, 0, 0);
+        transform: translate3d(1px, 0, 0)
+    }
+
+    50% {
+        -webkit-transform: translate3d(-4px, 0, 0);
+        transform: translate3d(-4px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: translate3d(4px, 0, 0);
+        transform: translate3d(4px, 0, 0)
+    }
+}
+
+
+
+
+
+.deliveryIcon {
+    margin-right: 15px;
+    animation: shake .9s cubic-bezier(.36, .07, .19, .97) infinite;
+    animation-timing-function: cubic-bezier(0.15, 0.32, 0.55, 1.35) infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 5000px;
+    perspective: 5000px;
+}
+
+.call {
+    color: #3d2514;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.menu>.submenu {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+    text-shadow: none;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #3d2514;
+}
+
+.offcanvasBodyMain {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.offcanvasBody {
+    display: flex;
+    flex-direction: column;
+}

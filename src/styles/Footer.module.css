@@ -1,0 +1,202 @@
+.footer {
+    margin-top: 10px;
+    background: url('../../public/assets/img/footer-bg.jpeg') no-repeat center center;
+    background-size: cover;
+    position: relative
+}
+
+.footer:after {
+    content: "";
+    background-color: rgba(33, 33, 33, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.footerTop {
+    position: relative;
+    z-index: 1;
+    padding-top: 84px;
+    padding-left: 43px
+}
+
+.footerLogo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.footerLogo span {
+    line-height: normal;
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    margin-left: 32px
+}
+
+.footerDesc {
+    color: #fff;
+    font-size: 17px;
+    max-width: 50%;
+    margin-bottom: 0;
+    padding-top: 44px
+}
+
+.footerMiddle {
+    position: relative;
+    z-index: 1;
+    padding-left: 43px;
+    padding-right: 120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.footerContact {
+    padding-top: 44px
+}
+
+.footerContactItem {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.footerContactIcon {
+    margin-right: 30px
+}
+
+.footerContactText {
+    font-size: 21px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+.footerContactText:hover {
+    color: #ffc045
+}
+
+.footerContactText:focus {
+    color: #fff
+}
+
+.footerBottom {
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-left: 43px;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.footerCopyright {
+    margin-bottom: 0;
+    color: #fff;
+    padding-bottom: 30px
+}
+
+.footerSocial {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 30px
+}
+
+.footerSocial a {
+    width: 29px;
+    min-width: 29px;
+    height: 29px;
+    margin-left: 12px;
+    background-color: #fff;
+    color: #212121;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.footerSocial a:hover {
+    color: #fff
+}
+
+.footerSocial a:focus {
+    color: #212121
+}
+
+
+.instagram:hover {
+    background-color: #e92452
+}
+
+.facebook:hover {
+    background-color: #1977f1
+}
+
+.twitter:hover {
+    background-color: #1da0f2
+}
+
+.whatsapp:hover {
+    background-color: #6ec069
+}
+
+@media only screen and (max-width: 987px) {
+    .footerMiddle {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
